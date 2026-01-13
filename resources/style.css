@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn't add to element width */
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+}
+
+#title { 
+    background-color: red;
+    justify-content: center;
+}
+#title > * { color: white; }
+
+#nav { 
+    background-color: white;
+    justify-content: space-around;
+}
+#nav p { color: red; }
