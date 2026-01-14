@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensures padding doesn't add to element width */
+    text-decoration: none;
 }
 
 header div {
@@ -12,11 +13,28 @@ header div {
 #title { 
     background-color: red;
     justify-content: center;
+    align-items: center;
 }
-#title > * { color: white; }
+#title > * { 
+    color: white;
+    padding: 10px;
+}
 
 #nav { 
     background-color: white;
     justify-content: space-around;
+    margin: 10px;
 }
-#nav p { color: red; }
+#nav a { 
+    color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: #f6f6f6;    
+    padding: 5px;
+}
+#nav a:hover {
+    color:  #f6f6f6;
+    background-color: red;
+}
+
+
